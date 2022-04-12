@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Sell Spell</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Secular+One&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- we worked with slide link and script -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- we worked with slide style -->
+    <style>
+        @media (max-width: 600px) {
+            .carousel-inner .carousel-item>div {
+                display: none;
+            }
+
+            .carousel-inner .carousel-item>div:first-child {
+                display: block;
+            }
+        }
+
+        .carousel-inner .carousel-item.active,
+        .carousel-inner .carousel-item-next,
+        .carousel-inner .carousel-item-prev {
+            display: flex;
+        }
+
+        /* medium and up screens */
+        @media (min-width: 600px) {
+
+            .carousel-inner .carousel-item-end.active,
+            .carousel-inner .carousel-item-next {
+                transform: translateX(25%);
+            }
+
+            .carousel-inner .carousel-item-start.active,
+            .carousel-inner .carousel-item-prev {
+                transform: translateX(-25%);
+            }
+        }
+
+        .carousel-inner .carousel-item-end,
+        .carousel-inner .carousel-item-start {
+            transform: translateX(0);
+        }
+    </style>
+    <!-- slide style end-->
+</head>
+
+<body>
+    <!--Navbar Starts-->
+    <section class="navbar-area">
+        <div class="container">
+            <div class="nav">
+                <div class="logo">
+                    <!-- <p id="first-leeter">S</p>
+                <p id="second-leeter">S</p> -->
+                    <img src="logo.svg" alt="">
+                </div>
+                <div class="nav-items">
+                    <ul>
+                        <a href="#">
+                            <li>Contact</li>
+                        </a>
+                        <a href="#">
+                            <li>Service</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Navbar Ends-->
+
+
+    <!--Hero Start-->
+
+    <section class="hero">
+        <img src="Asset/Ellipse 2.png" alt="">
+        <div class="cor-color"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="content-area">
+                        <p>Helping Companies<br> Worry Less <br> About The <br> <span>Sales & Marketing</span>‍<br> Part
+                            <br>
+                        </p>
+                        <div class="button-area-hero">
+                            <a href="#">Let's Talk</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="imagebox">
+                        <div class="first-box">
+                            <div class="img-box">
+                                <img src="Asset/hero-001.png" alt="">
+                                <div class="second-box"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Hero Ends-->
+
+    <!--From Starts-->
+
+    <section class="frombranding">
+        <div class="line-two"></div>
+        <div class="branding">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="video-container">
+                            <video id="background-video" autoplay muted loop poster="Asset/colour-animation2.gif">
+                                <source src="Asset/colour-animation2.gif" type="video/mp4" />
+                            </video>
+                            <div class="caption">
+                                <div class="content-branding">
+                                    <div class="heading">
+                                        <p>From ‍</p>
+                                    </div>
+                                    <div class="middl-content">
+                                        <h1>BRANDING </h1>
+                                        <img src="Asset/arrow-down.svg" alt="">
+                                        <h1>STRATEGY </h1>
+                                        <img src="Asset/arrow-down.svg" alt="">
+                                        <h1>CLOSING </h1>
+                                    </div>
+                                </div>
+                                <div class="para">
+                                    <p>Whatever it takes to bring <br>business for your company.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-d-6"></div>
+            </div>
+        </div>
+    </section>
+    <!--From Ends-->
+
+    <!--Work Start-->
+    <section class="work-with">
+        <div class="container-fluid">
+            <h2>We’ve worked with</h2>
+
+            <!-- sliding start -->
+            <!-- Top content -->
+
+            <div class="container text-center my-3">
+                <div class="row mx-auto my-auto justify-content-center">
+                    <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="Brands/imtibish.png" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="Brands/001.jpg" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="Brands/002.jpg" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="Brands/003.jpg" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="Brands/004.jpg" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="Brands/005.jpg" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="Brands/unais.png" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </a>
+                        <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- sliding end -->
+
+            <div class="clients">
+                <img src="Brands/imtibish.png" alt="">
+                <img src="Brands\001.jpg" alt="">
+                <img src="Brands\002.jpg" alt="">
+                <img src="Brands\003.jpg" alt="">
+                <img src="Brands\004.jpg" alt="">
+                <img src="Brands\005.jpg" alt="">
+                <img src="Brands/unais.png" alt="">
+
+            </div>
+        </div>
+    </section>
+    <!--Work Ends-->
+
+    <!-- service start -->
+    <section class="service">
+        <div class="container">
+            <div class="tabs">
+                <div class="row">
+                    <div class="col-md-6" id="tablinksstyle">
+                        <div class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Research</div>
+                        <div class="tablinks" onclick="openCity(event, 'Paris')">Branding</div>
+                        <div class="tablinks" onclick="openCity(event, 'Tokyo')">Sales enablement</div>
+                        <div class="tablinks" onclick="openCity(event, 'Strategy')">Strategy</div>
+                        <div class="tablinks" onclick="openCity(event, 'Closing')">Closing</div>
+                        <div class="tablinks" onclick="openCity(event, 'HR')">HR & Systems</div>
+                    </div>
+                    <div class="col-md-6" id="colpad">
+                        <div class="contentcolumn">
+                            <div id="London" class="tabcontent">
+                                <div class="tabstyle">
+                                    <h3>Research</h3>
+                                    <p>First we study and analyse your products (and services) inside out. Next we do
+                                        SWOT
+                                        analyses, competitor research, study market trends, etc. All to make your
+                                        product
+                                        stand
+                                        out.</p>
+                                </div>
+                                <div id="London" class="image-area tabimage">
+                                    <img src="Asset/Asset 1.png" alt="">
+                                </div>
+                            </div>
+                            <div id="Paris" class="tabcontent">
+                                <div class="tabstyle">
+                                    <h3>Branding</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis culpa minus
+                                        error
+                                        cupiditate similique ut pariatur ducimus consequatur? Repellat beatae pariatur
+                                        accusantium hic voluptatibus quas sapiente voluptate quod
+                                        quasi odio?
+                                    </p>
+                                </div>
+                                <div id="Paris" class="image-area tabimage">
+                                    <img src="Asset/Asset 2.png" alt="">
+                                </div>
+                            </div>
+                            <div id="Tokyo" class="tabcontent">
+                                <div class="tabstyle">
+                                    <h3>Sales enablement</h3>
+                                    <p>First we study and analyse your products (and services) inside out. Next we do
+                                        SWOT
+                                        analyses, competitor research, study market trends, etc. All to make your
+                                        product stand
+                                        out.</p>
+                                </div>
+                                <div id="Tokyo" class="image-area tabimage">
+                                    <img src="Asset/Asset 3.png" alt="">
+                                </div>
+                            </div>
+                            <div id="Strategy" class="tabcontent">
+                                <div class="tabstyle">
+                                    <h3>Strategy</h3>
+                                    <p>First we study and analyse your products (and services) inside out. Next we
+                                        do SWOT
+                                        analyses, competitor research, study market trends, etc. All to make your
+                                        product stand
+                                        out.</p>
+                                </div>
+                                <div class="image-area tabimage">
+                                    <img src="Asset/Asset 4.png" alt="">
+                                </div>
+                            </div>
+                            <div id="Closing" class="tabcontent">
+                                <div class="tabstyle">
+                                    <h3>Closing</h3>
+                                    <p>First we study and analyse your products (and services) inside out. Next
+                                        we do SWOT
+                                        analyses, competitor research, study market trends, etc. All to make
+                                        your product stand
+                                        out.</p>
+                                </div>
+                                <div class="image-area tabimage">
+                                    <img src="Asset/Asset 5.png" alt="">
+                                </div>
+                            </div>
+                            <div id="HR" class="tabcontent">
+                                <div class="tabstyle">
+                                    <h3>HR & Systems</h3>
+                                    <p>First we study and analyse your products (and services) inside out.
+                                        Next we do SWOT
+                                        analyses, competitor research, study market trends, etc. All to make
+                                        your product stand
+                                        out.</p>
+                                </div>
+                                <div id="HR" class="image-area tabimage">
+                                    <img src="Asset/Asset 6.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- contact section start-->
+    <section class="contact">
+        <h2>There's no <span>magic</span> in what we do</h2>
+        <p>It's pure dedication and an insane focus on getting results</p>
+        <a href="#">Talk to us now</a>
+    </section>
+    <!-- contact section end -->
+
+    <!--Footer Start-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="logo-tex">
+                        <h2>SellSpell<br> <span>Sales&Marketing</span> </h2>
+                        <h5>Karanthur | Calicut | Kerala India | 683 571</h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="logo-tex">
+                        <h4>Services</h4>
+                        <ul>
+                            <a href="">
+                                <li>Research</li>
+                            </a>
+                            <a href="">
+                                <li>Branding</li>
+                            </a>
+                            <a href="">
+                                <li>Sales enablement</li>
+                            </a>
+                            <a href="">
+                                <li>Strategy</li>
+                            </a>
+                            <a href="">
+                                <li>Closing</li>
+                                <a href="">
+                                    <li>HR & Systems</li>
+                                </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="logo-tex">
+                        <h4>Company</h4>
+                        <ul>
+                            <a href="">
+                                <li>Contact</li>
+                            </a>
+                            <a href="">
+                                <li>Privacy policy</li>
+                            </a>
+                            <a href="">
+                                <li>LinkedIn</li>
+                            </a>
+                            <a href="">
+                                <li>Instagram</li>
+                            </a>
+                            <a href="">
+                                <li>Facebook</li>
+                            </a>
+                            <a href="">
+                                <li>Twitter</li>
+                            </a>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Footer Ends-->
+
+    <script>
+            //  tabcontent click action start 
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks, tabimage;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+        // tabcontent click action end
+
+        // work-with sliding start 
+        let items = document.querySelectorAll('.carousel .carousel-item')
+
+        items.forEach((el) => {
+            const minPerSlide = 4
+            let next = el.nextElementSibling
+            for (var i = 1; i < minPerSlide; i++) {
+                if (!next) {
+                    // wrap carousel by using first child
+                    next = items[0]
+                }
+                let cloneChild = next.cloneNode(true)
+                el.appendChild(cloneChild.children[0])
+                next = next.nextElementSibling
+            }
+        })
+        // work-with sliding end
+    </script>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
