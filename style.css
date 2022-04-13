@@ -1,3 +1,10 @@
+body{
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
 * {
   padding: 0;
   margin: 0;
@@ -79,10 +86,14 @@
 .hero {
   min-height: 70vh;
   height: max-content;
+  /* overflow-x: hidden; */
+  /* padding-bottom: 30px; */
+  margin-bottom: -5%;
 }
 
 .hero img {
   position: absolute;
+  width: 90%;
 }
 
 .hero .container {
@@ -123,34 +134,39 @@
 }
 
 .imagebox {
-  padding-top: 100px;
+margin-top: 100px ;
+  height: 110%;
+  width: 100%;
 }
 
 .hero .imagebox .first-box {
   z-index: 99;
-  width: 489.68px;
-  height: 704.25px;
+  width: 100%;
+  height:fit-content;
+  /* height: 700px; */
   background: #fa5710;
   position: relative;
   border-radius: 16px;
   overflow-y: visible;
-  margin-bottom: -50px;
+  /* margin-bottom: -50px; */
+  padding: 15px 15px 100px 15px;
 }
 
 .hero .imagebox img {
-  position: absolute;
-  top: 59px;
+  width: 100%;
+  position: relative;
+  /* top: 59px; */
   align-items: center;
-  left: 17px;
+  /* left: 17px; */
   justify-content: center;
 }
 
 .hero .imagebox .second-box {
   position: absolute;
-  top: 62.25%;
-  width: 282.33px;
-  left: 37.5%;
-  height: 207.36px;
+  top: 55.25%;
+  width: 75%;
+  left: 20%;
+  height: 40%;
   bottom: 81.67%;
   background: #5807cc;
   mix-blend-mode: normal;
@@ -281,7 +297,7 @@
   width: 100%;
 }
 
-.tabcontent{
+.tabcontent {
   position: absolute;
   top: 20px;
 }
@@ -381,6 +397,7 @@
 
 .carousel-control-next {
   margin-right: -10%;
+  overflow-x: hidden;
 }
 
 .img-fluid {
@@ -423,6 +440,7 @@
 }
 
 .service {
+  overflow-x: hidden;
   background-color: #000000;
   height: 800px;
   min-height: 100vh;
@@ -457,15 +475,17 @@
 
 .service .image-area {
   top: 60px;
-  left: 276px;
+  /* left: 60%; */
+  right: 0%;
   border-radius: 20px;
   position: absolute;
 }
 
 .service .image-area img {
+  margin-right: 0%;
   margin-top: 0%;
   width: 270px;
-  margin-left: -10%;
+  /* margin-left: -10%; */
 }
 
 .contact {
@@ -738,12 +758,11 @@ footer .container .logo-tex h2 span {
     left: 128px;
     border-radius: 20px;
     margin-left: 70px;
-    position: absolute;
   }
   .service .image-area img {
     width: 200px;
   }
-  
+
   .work-with .clients img {
     width: 115px;
     border-radius: 20px;
@@ -958,6 +977,4 @@ footer .container .logo-tex h2 span {
   footer .container ul {
     padding-left: 0px;
   }
-
-
 }
