@@ -759,7 +759,7 @@ footer .container .logo-tex h2 span {
     top: 30px;
     border-radius: 20px;
     position: absolute;
-    left: 128px;
+    right: 0px;
     border-radius: 20px;
     margin-left: 70px;
   }
