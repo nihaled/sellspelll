@@ -52,7 +52,8 @@ body{
   list-style: none;
   display: flex;
   width: 100%;
-  font-family: myFirstFont;
+  font-family: url(fonts/SpaceGrotesk-Medium.ttf);
+  /* font-family: myFirstFont; */
   justify-content: space-between;
 }
 
