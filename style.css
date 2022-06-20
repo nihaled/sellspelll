@@ -646,6 +646,7 @@ footer .container .logo-tex h2 span {
     /* font-family: "Secular One", sans-serif; */
     font-size: 22px;
     /* font-family: myFirstFont; */
+    font-family: url(fonts/SpaceGrotesk-Medium.ttf);
     letter-spacing: 2px;
     color: #000000d9;
   }
