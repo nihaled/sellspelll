@@ -59,11 +59,11 @@ body{
 .navbar-area .container .nav .nav-items ul a {
   font-weight: bold;
   margin-left: 15px;
-  font-family: myFirstFont;
+  font-family: url(fonts/SpaceGrotesk-Medium.ttf);
   text-decoration: none;
   /* font-family: "Secular One", sans-serif; */
   font-size: 30px;
-  font-family: myFirstFont;
+  /* font-family: myFirstFont; */
   letter-spacing: 2px;
   color: black;
 }
