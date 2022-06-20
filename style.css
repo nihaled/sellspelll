@@ -643,9 +643,9 @@ footer .container .logo-tex h2 span {
     justify-content: space-between;
   }
   .navbar-area .container .nav .nav-items ul a {
-    font-family: "Secular One", sans-serif;
+    /* font-family: "Secular One", sans-serif; */
     font-size: 22px;
-    font-family: myFirstFont;
+    /* font-family: myFirstFont; */
     letter-spacing: 2px;
     color: #000000d9;
   }
